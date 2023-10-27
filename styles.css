@@ -1,0 +1,86 @@
+
+/* UNIVERSAL */
+
+.colors, .fonts, .texts {
+    display: flex;
+    justify-content: space-around;
+}
+
+.color-panel, .font-panel, .text-panel {
+    display: inline-block;
+    /* margin: 0 auto; */
+    text-align: center;
+    width: 20%;
+
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+header {
+    text-align: center;
+}
+
+/* COLORS */
+
+.blue {
+    color: white;
+    background-color:#2d5dcc ;
+}
+
+.pink {
+    color: Black;
+    background-color:#d957d9 ;
+}
+
+.green {
+    color: Black;
+    background-color:#4fe0b0 ;
+}
+
+.brown {
+    color: Black;
+    background-color:#efd9ca ;
+}
+
+/* FONTS */
+
+.roboto {
+    font-family: "Roboto";
+}
+
+.roboto .bold {
+    font-weight: bold;
+}
+
+.roboto .italic {
+    font-style: italic;
+}
+
+.sometype-mono {
+    font-family: "Sometype Mono";
+}
+
+.sometype-mono .bold {
+    font-weight: bold;
+}
+
+.sometype-mono .italic {
+    font-style: italic;
+}
+
+.rubik {
+    font-family: "Rubik";
+}
+
+.rubik .bold {
+    font-weight: bold;
+}
+
+.rubik .italic {
+    font-style: italic;
+}
+
+
+
